@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="kn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ಬಯೋಗ್ರೀನ್ - ಸಾವಯವ ಗೊಬ್ಬರ | ನವ ಕಿಸಾನ್ ಫರ್ಟಿಲೈಜರ್ಸ್</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f8f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #1b5e20;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            color: #a5d6a7;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1200') center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .hero h2 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        .price-badge {
+            background-color: #f57c00;
+            color: white;
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+
+        .section {
+            background: #fff;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        .section h3 {
+            color: #2e7d32;
+            border-bottom: 2px solid #81c784;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+            font-size: 1.4rem;
+        }
+
+        .features-list {
+            list-style-type: none;
+        }
+
+        .features-list li {
+            position: relative;
+            padding-left: 25px;
+            margin-bottom: 10px;
+        }
+
+        .features-list li::before {
+            content: "✔";
+            position: absolute;
+            left: 0;
+            color: #2e7d32;
+            font-weight: bold;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #e8f5e9;
+            color: #1b5e20;
+        }
+
+        .lab-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .lab-card {
+            background: #e8f5e9;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #2e7d32;
+        }
+
+        .order-form {
+            background: #e8f5e9;
+            padding: 25px;
+            border-radius: 10px;
+            border: 2px solid #a5d6a7;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .btn-whatsapp {
+            background-color: #25d366;
+            color: white;
+            padding: 15px 25px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .btn-whatsapp:hover {
+            background-color: #128c7e;
+        }
+
+        footer {
+            background-color: #1b5e20;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin-bottom: 5px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.6rem;
+            }
+
+            .hero h2 {
+                font-size: 1.5rem;
+            }
+
+            .section {
+                padding: 18px;
+            }
+
+            th, td {
+                padding: 8px;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ನವ ಕಿಸಾನ್ ಫರ್ಟಿಲೈಜರ್ಸ್</h1>
+        <p>"ಶ್ರಮ ನಿಮ್ಮದು - ಸಹಕಾರ ನಮ್ಮದು"</p>
+    </header>
+
+    <div class="hero">
+        <h2>ಬಯೋಗ್ರೀನ್ ಸಾವಯವ ಗೊಬ್ಬರ</h2>
+        <p>ಮಣ್ಣಿನ ರಕ್ಷಕ - ನಿರಂತರ ರೈತರ ಸೇವೆಯಲ್ಲಿ...</p>
+        <div class="price-badge">ನಿವ್ವಳ ತೂಕ: 40 ಕೆ.ಜಿ. | ಬೆಲೆ: ₹600/-</div>
+    </div>
+
+    <div class="container">
+
+        <div class="section">
+            <h3>ಆನ್‌ಲೈನ್ ಆರ್ಡರ್ ಮಾಡಿ (Order Now)</h3>
+            <div class="order-form">
+                <div class="form-group">
+                    <label for="name">ನಿಮ್ಮ ಹೆಸರು (Name):</label>
+                    <input type="text" id="name" placeholder="ಉದಾ: ರಮೇಶ್">
+                </div>
+
+                <div class="form-group">
+                    <label for="address">ವಿಳಾಸ ಮತ್ತು ಊರು (Address):</label>
+                    <textarea id="address" rows="2" placeholder="ನಿಮ್ಮ ಪೂರ್ಣ ವಿಳಾಸ"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="quantity">ಬೇಕಾಗುವ ಚೀಲಗಳ ಸಂಖ್ಯೆ (40kg Bags):</label>
+                    <input type="number" id="quantity" value="1" min="1">
+                </div>
+
+                <button class="btn-whatsapp" onclick="sendWhatsAppOrder()">
+                    📲 WhatsApp ಮೂಲಕ ಆರ್ಡರ್ ಮಾಡಿ
+                </button>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>ಉತ್ಪನ್ನದ ಪ್ರಯೋಜನಗಳು</h3>
+            <ul class="features-list">
+                <li>ಮಣ್ಣಿನ ಜೈವಿಕ ಚಟುವಟಿಕೆ ಮತ್ತು ಫಲವತ್ತತೆಯನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ.</li>
+                <li>ನೀರು ಹಿಡಿದಿಟ್ಟುಕೊಳ್ಳುವ ಸಾಮರ್ಥ್ಯವನ್ನು ಉತ್ತಮಗೊಳಿಸುತ್ತದೆ.</li>
+                <li>ಸಮತೋಲಿತ ಪೋಷಕಾಂಶಗಳಿಂದ ಬೆಳೆಗಳ ಬೆಳವಣಿಗೆಯನ್ನು ಸುಧಾರಿಸುತ್ತದೆ.</li>
+                <li>ರಾಸಾಯನಿಕ ಗೊಬ್ಬರ ಬಳಕೆಯ ಅವಲಂಬನೆಯನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ.</li>
+                <li>ಬೇರುಗಳು ಉಸಿರಾಡಲು ಮತ್ತು ಆರೋಗ್ಯವಾಗಿ ಬೆಳೆಯಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.</li>
+                <li>15% ರಿಂದ 20% ತೇವಾಂಶ ಹಾಗೂ ಸಣ್ಣ ಮರಳಿನ ಕಣಗಳನ್ನು ಹೊಂದಿದೆ.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h3>ಬೆಳೆಗಳಿಗೆ ಬಳಸುವ ಶಿಫಾರಸ್ಸಿನ ಪ್ರಮಾಣ</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ಬೆಳೆ</th>
+                        <th>ಪ್ರಮಾಣ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>ತೆಂಗು</td><td>10 ರಿಂದ 15 ಕೆಜಿ (ಪ್ರತಿ ಮರಕ್ಕೆ)</td></tr>
+                    <tr><td>ಅಡಿಕೆ</td><td>6 ರಿಂದ 10 ಕೆಜಿ (ಪ್ರತಿ ಗಿಡಕ್ಕೆ)</td></tr>
+                    <tr><td>ಕಾಫಿ</td><td>4 ರಿಂದ 6 ಕೆಜಿ (ಪ್ರತಿ ಗಿಡಕ್ಕೆ)</td></tr>
+                    <tr><td>ಕಾಳು ಮೆಣಸು</td><td>5 ರಿಂದ 6 ಕೆಜಿ (ಪ್ರತಿ ಗಿಡಕ್ಕೆ)</td></tr>
+                    <tr><td>ಬಾಳೆ</td><td>3 ರಿಂದ 5 ಕೆಜಿ (ಪ್ರತಿ ಗಿಡಕ್ಕೆ)</td></tr>
+                    <tr><td>ಶುಂಠಿ</td><td>20 ರಿಂದ 30 ಚೀಲ (ಪ್ರತಿ ಎಕರೆಗೆ)</td></tr>
+                    <tr><td>ಮಾವು</td><td>10 ರಿಂದ 20 ಕೆಜಿ (ಪ್ರತಿ ಮರಕ್ಕೆ)</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="section">
+            <h3>ಪ್ರಯೋಗಾಲಯದ ವರದಿ (Lab Report)</h3>
+            <div class="lab-grid">
+                <div class="lab-card"><strong>ಒಟ್ಟು ನೈಟ್ರೋಜನ್:</strong> 7.36%</div>
+                <div class="lab-card"><strong>ಒಟ್ಟು ಫಾಸ್ಫೇಟ್:</strong> 1.08%</div>
+                <div class="lab-card"><strong>ಒಟ್ಟು ಪೊಟ್ಯಾಷ್:</strong> 2.10%</div>
+                <div class="lab-card"><strong>NPK ಪೋಷಕಾಂಶಗಳು:</strong> 10.54%</div>
+                <div class="lab-card"><strong>ಸಾವಯವ ಕಾರ್ಬನ್:</strong> 30.50%</div>
+                <div class="lab-card"><strong>pH ಮಟ್ಟ:</strong> 6.75</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>ಸಂಪರ್ಕಿಸಿ & ವಿವರಗಳು</h3>
+            <p><strong>ಮಾರಾಟಗಾರರು:</strong> ನವ ಕಿಸಾನ್ ಫರ್ಟಿಲೈಜರ್ಸ್, ಹನುಮಂತಪುರ ಗ್ರಾಮ, ಜಗಳೂರು ತಾಲೂಕು, ದಾವಣಗೆರೆ ಜಿಲ್ಲೆ - 577528.</p>
+            <p><strong>ಗ್ರಾಹಕ ಸೇವಾ ಸಂಖ್ಯೆ:</strong> 9888819666</p>
+            <p><strong>ಸಾಮಾಜಿಕ ಜಾಲತಾಣ:</strong> ಬಯೋಗ್ರೀನ್ ಕರ್ನಾಟಕ (YouTube, Instagram, Facebook)</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 ನವ ಕಿಸಾನ್ ಫರ್ಟಿಲೈಜರ್ಸ್. ಎಲ್ಲಾ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ.</p>
+        <p>ಬಯೋಗ್ರೀನ್ ಬಳಸಿ - ಮಣ್ಣು ಉಳಿಸಿ</p>
+    </footer>
+
+    <script>
+        function sendWhatsAppOrder() {
+            const name = document.getElementById("name").value.trim();
+            const address = document.getElementById("address").value.trim();
+            const quantity = document.getElementById("quantity").value;
+
+            if (name === "" || address === "") {
+                alert("ದಯವಿಟ್ಟು ಹೆಸರು ಮತ್ತು ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿ.");
+                return;
+            }
+
+            const phone = "919888819666";
+            const message =
+                "ನಮಸ್ಕಾರ, ನಾನು ಬಯೋಗ್ರೀನ್ ಸಾವಯವ ಗೊಬ್ಬರವನ್ನು ಆರ್ಡರ್ ಮಾಡಲು ಬಯಸುತ್ತೇನೆ.\n\n" +
+                "*ಹೆಸರು:* " + name + "\n" +
+                "*ವಿಳಾಸ:* " + address + "\n" +
+                "*ಚೀಲಗಳ ಸಂಖ್ಯೆ:* " + quantity + " (40kg Bags)\n\n" +
+                "ದಯವಿಟ್ಟು ಹೆಚ್ಚಿನ ವಿವರಗಳನ್ನು ತಿಳಿಸಿ.";
+
+            const whatsappUrl = "https://wa.me/" + phone + "?text=" + encodeURIComponent(message);
+            window.open(whatsappUrl, "_blank");
+        }
+    </script>
+</body>
+</html>
